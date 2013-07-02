@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="github"
+  <remote name="mitwo"
           fetch="git://github.com/" />
            
     <!-- CM replacements -->
@@ -9,13 +9,13 @@
   <remove-project path="system/core" name="CyanogenMod/android_system_core" />
 
   <!-- Local projects -->
-  <project path="system/core" name="mitwo-dev/android_system_core" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="mitwo-dev/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
+  <project path="system/core" name="mitwo-dev/android_system_core" remote="mitwo" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="mitwo-dev/android_hardware_qcom_audio-caf" remote="mitwo" revision="cm-10.1" />
 
   <!-- device -->
-  <project path="device/xiaomi/aries" name="mitwo-dev/android_device_xiaomi_aries" remote="github" revision="cm-10.1" />
+  <project path="device/xiaomi/aries" name="mitwo-dev/android_device_xiaomi_aries" remote="mitwo" revision="cm-10.1" />
 
   <!-- Vendor -->
-  <project path="vendor/xiaomi" name="mitwo-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-10.1" />
+  <project path="vendor/xiaomi" name="mitwo-dev/proprietary_vendor_xiaomi" remote="mitwo" revision="cm-10.1" />
   
 </manifest>
