@@ -25,4 +25,6 @@
   <project path="frameworks/base" name="mirom/android_frameworks_base" remote="mirom" revision="cm-10.1" />
   <project path="frameworks/opt/telephony" name="mirom/android_frameworks_opt_telephony" remote="mirom" revision="cm-10.1" />
   <project path="bootable/recovery" name="mirom/android_bootable_recovery" remote="mirom" revision="cm-10.1" />
+  <project path="hardware/qcom/display-legacy" name="mirom/android_hardware_qcom_display-legacy" remote="mirom" revision="cm-10.1" />
+  <project path="hardware/qcom/media-legacy" name="mirom/android_hardware_qcom_media-legacy" remote="mirom" revision="cm-10.1" />
 </manifest>
