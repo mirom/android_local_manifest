@@ -9,6 +9,7 @@
   <remove-project path="system/core" name="CyanogenMod/android_system_core" />
 
   <!-- Local projects -->
+  <!--秋叶随风把这些文件删除了。所以下面的路径不能用了。-->
   <project path="system/core" name="mitwo-dev/android_system_core" remote="mitwo" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="mitwo-dev/android_hardware_qcom_audio-caf" remote="mitwo" revision="cm-10.1" />
 
